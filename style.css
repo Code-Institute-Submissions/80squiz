@@ -96,7 +96,7 @@ h1{
   margin-bottom: 10px;
 }
 button{
-  font-family: 'Work Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
 	font-size: 22px;
 	background-color: #279;
 	color: #fff;
@@ -128,10 +128,6 @@ button:hover{
   z-index: 2;
 }
 
-.quiz-box {
-    
-}
-
 .quiz-container{
   position: relative;
   height: 30vh;
@@ -142,3 +138,9 @@ button:hover{
   margin-left: auto;
   margin-right: auto;
 }
+
+.slide {
+    margin-top: 2.5rem;
+}
+
+
