@@ -107,30 +107,30 @@
   const submitButton = document.getElementById('submit');
   const myQuestions = [
     {
-      question: "Who invented JavaScript?",
+      question: "Which actor played Dr Peter Venkman in the original Ghostbusters films?",
       answers: {
-        a: "Douglas Crockford",
-        b: "Sheryl Sandberg",
-        c: "Brendan Eich"
+        a: "John Candy",
+        b: "Dan Akroyd",
+        c: "Bill Murray"
       },
       correctAnswer: "c"
     },
     {
-      question: "Which one of these is a JavaScript package manager?",
+      question: "What becomes self-aware and triggers The Terminator series plot?",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
+        a: "T1000",
+        b: "Cyberdyne",
+        c: "SkyNet"
       },
       correctAnswer: "c"
     },
     {
-      question: "Which tool can you use to ensure code quality?",
+      question: "Ivan Drago fights Rocky in which film?",
       answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
+        a: "Rocky II",
+        b: "Rocky III",
+        c: "Balboa",
+        d: "Rocky IV"
       },
       correctAnswer: "d"
     }
