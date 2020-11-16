@@ -156,4 +156,7 @@ button:hover{
     #next {
         width: 70vw;
     }
+    #previous {
+        width: 70vw;
+    }
 }
