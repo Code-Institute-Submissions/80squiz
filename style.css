@@ -155,8 +155,10 @@ button:hover{
     }
     #next {
         width: 70vw;
+        font-size: 15px;
     }
     #previous {
         width: 70vw;
+        font-size: 15px;
     }
 }

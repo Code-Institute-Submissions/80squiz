@@ -133,6 +133,76 @@
         d: "Rocky IV"
       },
       correctAnswer: "d"
+    },
+    {
+      question: "Which of the following is not a Top Gun character?",
+      answers: {
+        a: "Iceman",
+        b: "Maverick",
+        c: "Goose",
+        d: "Thunder"
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "Which year did The Karate Kid premiere?",
+      answers: {
+        a: "1984",
+        b: "1985",
+        c: "1986",
+        d: "1987"
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "What is Robocop's real name?",
+      answers: {
+        a: "John Connor",
+        b: "Vince Smith",
+        c: "Rick Ruben",
+        d: "Alex Murphy"
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "Who played the guitar solo on Michael Jackson's hit Beat It?",
+      answers: {
+        a: "Slash",
+        b: "Angus Young",
+        c: "Eddie Van Halen",
+        d: "Sting"
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "Where do Transformers come from?",
+      answers: {
+        a: "The Cube",
+        b: "Unicron",
+        c: "Cybertron",
+        d: "Earth"
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "Who is the receptionist of The Ghostbusters?",
+      answers: {
+        a: "Janine",
+        b: "April",
+        c: "Marie",
+        d: "Dana"
+      },
+      correctAnswer: "a"
+    },
+     {
+      question: "What year does Marty go back to in Back to the Future?",
+      answers: {
+        a: "1955",
+        b: "1930",
+        c: "1973",
+        d: "1958"
+      },
+      correctAnswer: "a"
     }
   ];
 
