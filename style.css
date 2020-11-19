@@ -5,7 +5,7 @@
     width: 100vw;
     height: 100vh;
     border: 1px solid lawngreen;
-    background-image: url("../img/intro.jpg");
+    background-image: url("img/intro.jpg");
     background-position: center;
     background-repeat: no-repeat;
     align-items: center;
@@ -70,7 +70,7 @@ body
     color: #333;
     font-weight: 300;
     text-align: center;
-    background-image: url("../img/intro.jpg");
+    background-image: url("img/intro.jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
