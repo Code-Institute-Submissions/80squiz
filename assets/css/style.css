@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
 .main
 {
     width: 100vw;
     height: 100vh;
-    border: 1px solid lawngreen;
-    background-image: url("img/intro.jpg");
+    background-image: url("../img/intro.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
 }
 
 .title-box 
 {
-    text-align: center;
-    margin-top: 2.5%;
+    text-align: center;    
     color: #ff01ff;
 }
 
@@ -33,18 +37,18 @@
 .btn-style
 {
     background-color: #1c87c9;
-  -webkit-border-radius: 60px;
-  border-radius: 60px;
-  border: none;
-  color: #eeeeee;
-  cursor: pointer;
-  display: inline-block;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 20px;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  animation: glowing 1300ms infinite;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    animation: glowing 1300ms infinite;
 }
 
 
@@ -114,7 +118,7 @@ button:hover{
   position: absolute;
   left: 0px;
   top: 0px;
-  margin-top: 2.5rem;
+  
   width: 100%;
   z-index: 1;
   opacity: 0;
@@ -128,8 +132,7 @@ button:hover{
 .quiz-container{
   position: relative;
   height: 30vh;
-  width: 70vw;
-  margin-top: 15%;
+  width: 70vw;  
   background: black;
   color: #ff01ff;
   margin-left: auto;
@@ -259,7 +262,7 @@ button:hover{
     } 
 }
 
-/* Galaxy Fold - small devices
+/* Galaxy Fold - small devices */
 @media (min-width: 280px) and (max-width: 280px) {
   
   /* CSS */

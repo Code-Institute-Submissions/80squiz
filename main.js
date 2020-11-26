@@ -206,7 +206,7 @@
     }
   ];
 
-  // Kick things off
+  // start it
   buildQuiz();
 
   // Pagination
