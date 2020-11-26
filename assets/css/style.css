@@ -4,22 +4,32 @@ body
 {
     margin: 0;
     padding: 0;
+     background-image: url("../img/intro.jpg");
+    background-position: center;
+    background-size: cover;
+    align-items: center;  
 }
 
 .main
 {
     width: 100vw;
     height: 100vh;
-    background-image: url("../img/intro.jpg");
+     background-image: url("../img/intro.jpg");
     background-position: center;
     background-size: cover;
-    align-items: center;
+    align-items: center;  
 }
 
 .title-box 
 {
     text-align: center;    
     color: #ff01ff;
+    margin-top: 0;
+}
+
+h2
+{
+    margin-top: 0;
 }
 
 .row {
@@ -137,6 +147,7 @@ button:hover{
   color: #ff01ff;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .slide {
