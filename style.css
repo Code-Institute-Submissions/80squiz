@@ -142,7 +142,8 @@ button:hover{
 
 /* media queries */
 
-/* Extra small devices (phones, 640px and down) MOTO G4 */
+
+/*
 @media only screen and (max-width: 640px) {
     .question {
         font-size: 15px;
@@ -162,83 +163,114 @@ button:hover{
         font-size: 15px;
     }
 }
+*/
 
-/*
+
+-----
+
+/* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
+
 @media (min-width: 1281px) {
- 
+  
+  /* CSS */
+  
 }
-/*
+
+/* 
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
-@media (min-width: 1026px) and (max-width: 1280px) {
- 
- 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
 }
 
-/*
+/* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
-@media (min-width: 768px) and (max-width: 1023px) {
- .quiz-container {
-     height: 40vh;
- }
-   
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
 }
 
-/*
-  ##Device = galaxay fold landscape
-  ##Screen = B/w 653
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
 */
-@media (min-width: 652px) and (max-width: 655px) {
- 
- 
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
 }
-/*
+
+/* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
+
 @media (min-width: 481px) and (max-width: 767px) {
- 
- 
-}
-  /*
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 360px to 479px
-*/
-@media (min-width: 411px) and (max-width: 480px) {
- 
-}
-  /*
-  ##Device = iphone x
-  ##Screen = B/w 360px to 479px
-*/
-@media (min-width: 375px) and (max-width: 410px) {
- 
- 
+  
+  /* CSS */
+  .quiz-container {
+      height: 60vh;
+  }
+  .question {
+      font-size: 18px
+  }
+  .answers {
+      font-size: 14px;
+      margin-top: 2.5rem;
+  }
 }
 
-/*
+/* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 360px to 479px
+  ##Screen = B/w 320px to 479px
 */
-@media (min-width: 360px) and (max-width: 374px) {
- 
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .quiz-container {
+      height: 60vh;
+  }
+  .question {
+      font-size: 15px;
+  }
+  .answers {
+      font-size: 12px;
+      margin-top: 2.5rem;
+  }
+  #next {
+        width: 70vw;
+        font-size: 15px;
+    }
+    #previous {
+        width: 70vw;
+        font-size: 15px;
+    } 
 }
-  /*
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 360px to 479px
-*/
-@media (min-width: 320px) and (max-width: 359px) {  
- 
-}
-    /*
-  ##Device = very small screens
-  ##Screen = B/w 240px to 319px
-*/
-@media (min-width: 240px) and (max-width: 319px) { 
+
+/* Galaxy Fold - small devices
+@media (min-width: 280px) and (max-width: 280px) {
+  
+  /* CSS */
+  .quiz-container {
+      height: 60vh;
+  }
+  .question {
+      font-size: 12px
+  }
+  .answers {
+      font-size: 10px;
+      margin-top: 2.5rem;
+  }
 }
