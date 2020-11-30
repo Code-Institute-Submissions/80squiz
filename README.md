@@ -41,6 +41,12 @@ Typography was a relatively easy choice - the lower the pixel aesthetic the bett
 * GitPod
 * Chrome Devtools
 
+# Testing
+
+In order to test this project I allowed my mentor and a few friends a chance to play the quiz and navigate around to make sure all the buttons work. 
+
+I also needed to check all answers were coded correctly in order to not give any erroneous results when the question had been answered either correctly or incorrectly. 
+
 # Deployment
 
 ### GitHub Pages
