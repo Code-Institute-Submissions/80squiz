@@ -43,9 +43,29 @@ Typography was a relatively easy choice - the lower the pixel aesthetic the bett
 
 # Testing
 
-In order to test this project I allowed my mentor and a few friends a chance to play the quiz and navigate around to make sure all the buttons work. 
+## User Testing
+
+In order to test this project I allowed my mentor and a four friends a chance to play the quiz and navigate around to make sure all the buttons work. 
 
 I also needed to check all answers were coded correctly in order to not give any erroneous results when the question had been answered either correctly or incorrectly. 
+
+## User Testing Expectation 
+
+* All landing page to load as expected
+* All quiz buttons work
+* Navigation buttons to work
+* All correct and incorrect tallies to work
+
+## User Testing Results
+* Submit quiz/view results not clear 
+* Should include a 'restart quiz' button
+
+## Post testing Adjustments
+
+After having the quiz tested I have adjusted the background of the results div in order to make the result more apparent. Previously the button was working however the font color and background were too close in color to view. 
+I also added a button to link back to the landing page in order to start the quiz again. 
+
+
 
 # Deployment
 
