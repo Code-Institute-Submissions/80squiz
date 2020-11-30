@@ -1,6 +1,6 @@
 # The Epic 80's Quiz
 
-View my Epic 80's quiz here (link)
+View my Epic 80's quiz here https://rossmclenny.github.io/80squiz/
 
 This project I decided to make a simple quiz app using HTML, CSS and Javascript to test the user on my favourite subject - the 80's!.
 The sole purpose of the quiz is to have a little fun and to give a reference to many of its quirks - especially pixelated fonts, sci-fi images and other cliches.
