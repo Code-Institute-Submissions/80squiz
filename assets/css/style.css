@@ -154,6 +154,11 @@ button:hover{
     margin-top: 2.5rem;
 }
 
+#results {
+    color: whitesmoke;
+    background: black;
+}
+
 /* media queries */
 
 
