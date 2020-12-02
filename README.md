@@ -1,6 +1,6 @@
 # The Epic 80's Quiz
 
-![title](assets/img/example.png)
+![](assets/img/example.png)
 
 View my Epic 80's quiz here https://rossmclenny.github.io/80squiz/
 
