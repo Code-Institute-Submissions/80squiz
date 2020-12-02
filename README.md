@@ -73,6 +73,10 @@ All code passes tests on https://validator.w3.org/ and https://jshint.com/
 
 * Code on JSHint did throw some errors relating to ES6 however upon checking and research this is a common and archaic feature of validators such as JSHint and Beautify
 
+## Bugs/Improvements for Future
+
+I would like to improve the results interaction. I have begun researching how to add either a modal display the result and/or giving the user an option to share the result to their social media. At the moment I feel the result action is a little bland and doesnt stand out enough. 
+
 
 # Deployment
 
