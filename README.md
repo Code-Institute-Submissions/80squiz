@@ -1,5 +1,7 @@
 # The Epic 80's Quiz
 
+![title](assets/img/example.png)
+
 View my Epic 80's quiz here https://rossmclenny.github.io/80squiz/
 
 This project I decided to make a simple quiz app using HTML, CSS and Javascript to test the user on my favourite subject - the 80's!.
@@ -60,11 +62,16 @@ I also needed to check all answers were coded correctly in order to not give any
 * Submit quiz/view results not clear 
 * Should include a 'restart quiz' button
 
-## Post testing Adjustments
+## Post Testing Adjustments
 
 After having the quiz tested I have adjusted the background of the results div in order to make the result more apparent. Previously the button was working however the font color and background were too close in color to view. 
 I also added a button to link back to the landing page in order to start the quiz again. 
 
+## Validation
+
+All code passes tests on https://validator.w3.org/ and https://jshint.com/
+
+* Code on JSHint did throw some errors relating to ES6 however upon checking and research this is a common and archaic feature of validators such as JSHint and Beautify
 
 
 # Deployment
