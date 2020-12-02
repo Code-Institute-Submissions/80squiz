@@ -89,7 +89,8 @@ body
     background-position: center;
     background-repeat: no-repeat;
 }
-h1{
+h1
+{
   font-weight: 300;
   margin: 0px;
   padding: 10px;
@@ -131,7 +132,8 @@ a
     text-decoration: none;
 }
 
-.slide{
+.slide
+{
   position: absolute;
   left: 0px;
   top: 0px;
@@ -141,12 +143,15 @@ a
   opacity: 0;
   transition: opacity 0.5s;
 }
-.active-slide{
+
+.active-slide
+{
   opacity: 1;
   z-index: 2;
 }
 
-.quiz-container{
+.quiz-container
+{
   position: relative;
   height: 30vh;
   width: 70vw;  
@@ -157,11 +162,13 @@ a
   
 }
 
-.slide {
+.slide 
+{
     margin-top: 2.5rem;
 }
 
-#results {
+#results 
+{
     color: whitesmoke;
     background: black;
 }
